@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Page</title>
+    <link rel="stylesheet" href="sty_main.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>Buligan Maria</h1>
+        <a href="main.html">Profile</a>
+    </div>
+
+    <div class="container">
+        <div class="item">
+            <button onclick="content_down('edu')">Education</button>
+            <div id="edu" class="invisible">
+                <h3>Politehnica University of Bucharest</h3>
+                <h3>Faculty of Automatic Control and Computer Science, 2<sup>nd</sup></h3><br>
+                <h4>Relevant Courses</h4>
+                <ul>
+                    <li>JavaScript Course by ADOBE</li>
+                    <li>Object Oriented Programming</li>
+                    <li>Algorithm Programming</li>
+                    <li>Sistems and Signals</li>
+                    <li>Numeric Methods</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <button onclick="content_down('ski')">Skills</button>
+            <div id="ski" class="invisible">
+                <h3>Programming</h3>
+                <h5>Languages</h5>
+                <ul>
+                    <li>C/C++</li>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+                <h5>Tools</h5>
+                <ul>
+                    <li>Git/GitHub</li>
+                    <li>VsCode</li>
+                    <li>Xcode</li>
+                </ul>
+
+                <h3>Softskills</h3>
+                <ul>
+                    <li>Fast Learner</li>
+                    <li>Time Managment</li>
+                    <li>Adaptability</li>
+                    <li>Flexibility</li>
+                    <li>Critical Thinking</li>
+                </ul>
+                
+                <h3>Languages</h3>
+                <ul>
+                    <li>Romanian (nativ)</li>
+                    <li>English (B2)</li>
+                    <li>Hungarian (Begginer)</li>
+                    <li>French (Begginer)</li>
+                    <li>Italian (Begginer)</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="item">
+            <button onclick="content_down('volunt')">Volunteer</button>
+            <div id="volunt" class="invisible">
+                <h3>Laboratory Assistent for Algorithm Programming</h3><br>
+                <p>Providing assistance and help students encountering challanges with any logical or programming concepts and degubugging problem</p>
+                <br>
+            </div>
+        </div>
+
+        <div class="item">
+            <button onclick="content_down('comp')">Competitions</button>
+            <div id="comp" class="invisible">
+                    <h3>Heckaton</h3>
+                    <ul>
+                        <li>8h hackathon participation, creating a website for a green organization created by a team of 3 </li>
+                        <li>The project facilitated cooperation, communication and task management within specified timeframes </li>
+                    </ul>
+            </div>
+        </div>
+    </div>
+
+     <h2 class="centru" id="projects">Projects:</h2><br>
+     <div id="pj_1" class="prim_pj">
+        <h3 class="centru">Program for Competition Managment</h3>
+        <h6 class="centru">C,VsCode, <a href="https://github.com/mariaBuligan/tema_pa_vsc/" class="git">GitHub</a></h6>
+        <ul>
+          <li>facilitates the mana of the teams and giving the competition a better flow by using data structures</li>
+          <li>computes and displays the final ranking </li>
+          <li>the final teams are organized in a AVL tree</li>
+      </ul>
+    </div>
+      <div id="button-project" class="align">
+        <button  id="b1" class="special-btn" onclick="before_pj()">&lt</button>
+        <button  id="b2" class="special-btn" onclick="after_pj()">&gt</button>
+       </div>
+
+      <div id="pj_2" class="project-item">
+        <h3 class="centru">Mini Spotify </h3>
+          <h6 class="centru">C++, <a href="https://github.com/mariaBuligan/Programare_orientata_pe_obiecte" class="git">GitHub</a></h6>
+          <ul>
+            <li>The program extracts artist, album, and track data from a file, utilizing classes and STL vectors for organization </li>
+            <li>It provides the functionality to dynamically add or remove albums at any juncture, along with the capability to arrange them in chronological order</li>
+        </ul>
+    </div>
+       
+        <div id="pj_3" class="project-item">
+            <h3 class="centru">Water hardness chemistry laboratory </h3>
+              <h6 class="centru">C, <a href="https://github.com/mariaBuligan/Laborator_duritate_apa" class="git">GitHub</a></h6>
+              <ul>
+                <li>helping the students to calculate the water hardness by introducing the laboratory results </li>
+                <li>the final teams are organized in a AVL tree</li>
+            </ul>
+        </div>
+
+        <div id="pj_4" class="project-item">
+            <h3 class="centru">Website for Guitar Presentation </h3>
+              <h6 class="centru">HTML, CSS, <a href="https://github.com/mariaBuligan/Atestat/tree/main/reinvierea mariei html 2" class="git">GitHub</a></h6>
+              <ul>
+                <li>designed a user-friendly main menu with a page for every industry leader </li>
+                <li>each company showcases a distinct range of products</li>
+            </ul>
+        </div>
+        
+
+   
+</body>
+</html>
